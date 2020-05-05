@@ -1,7 +1,7 @@
 #         DTI Distortion Correction Pipeline
 The processing pipeline to perform distortion correction and Leukoencephalopathy (LE) patching for DTI structure connectome
 
-#### Prerequisites:  
+### Prerequisites:  
 -Installed FSL 6.     
 -Installed MRTrix3.   
 -Installed ANTs.   
