@@ -1,4 +1,4 @@
-##         DTI Processing Pipeline with distortion correction and LE patching
+##         DTI Processing Pipeline with Distortion Correction and LE patching
 The processing pipeline to perform distortion correction and Leukoencephalopathy (LE) patching for DTI structure connectome
 
 ### Prerequisites  
