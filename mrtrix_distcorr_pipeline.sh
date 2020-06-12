@@ -72,7 +72,7 @@ fi
 echo "		#4 Eddy current correction "
 dwi_den_unr_preproc=dwi_den_unr_preproc.mif
 if [ ! -f $dwi_den_unr_preproc ]; then
-	dwipreproc_new -nthreads $THREADS $dwi_den_unr $dwi_den_unr_preproc -rpe_header -eddy_options " --slm=linear --data_is_shelled " 
+	dwipreproc -nthreads $THREADS $dwi_den_unr $dwi_den_unr_preproc -rpe_header -eddy_options " --slm=linear --data_is_shelled " 
 fi
 
 
