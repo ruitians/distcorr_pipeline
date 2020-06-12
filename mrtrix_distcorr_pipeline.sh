@@ -47,7 +47,7 @@ cd $myDir
 echo "		#1. cancatenate all b-images"
 dwi=dwi_raw.mif
 if [ ! -f $dwi ]; then
-	mrcat -nthreads $THREADS  *DT*/ $dwi -axis 3
+	mrconvert -nthreads $THREADS  *DT*AP/ $dwi 
 	mrinfo $dwi -export_grad_mrtrix grad.txt -export_pe_table pe.txt  -force
 fi
 
